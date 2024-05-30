@@ -4,5 +4,6 @@ def sum(n):
     else:
         return n+sum(n-1)
     
-print(sum(10))
-print(sum(100))
+print('Sum of first 10 numbers is : ',sum(10))
+print('Sum of first 100 numbers is : ',sum(100))
+
